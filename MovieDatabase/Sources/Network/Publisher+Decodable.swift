@@ -1,10 +1,3 @@
-//
-//  Publisher+Decodable.swift
-//  MovieDatabase
-//
-//  Created by Amit Majumdar on 25/09/21.
-//
-
 import Combine
 
 public extension Publisher where Output == URLSession.DataTaskPublisher.Output {

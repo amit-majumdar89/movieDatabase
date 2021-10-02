@@ -1,11 +1,3 @@
-//
-//  MovieReviewWebService.swift
-//  MovieDatabase
-//
-//  Created by Amit Majumdar on 26/09/21.
-//
-
-import Foundation
 import Combine
 
 public protocol MovieReviewWebServiceProtocol: WebService {

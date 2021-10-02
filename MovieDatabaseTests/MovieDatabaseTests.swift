@@ -1,10 +1,3 @@
-//
-//  MovieDatabaseTests.swift
-//  MovieDatabaseTests
-//
-//  Created by Amit Majumdar on 25/09/21.
-//
-
 import XCTest
 @testable import MovieDatabase
 

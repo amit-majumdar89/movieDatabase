@@ -1,10 +1,3 @@
-//
-//  KeyValueView.swift
-//  MovieDatabaseExample
-//
-//  Created by Amit Majumdar on 30/09/21.
-//
-
 import SwiftUI
 
 struct KeyValueView: View {

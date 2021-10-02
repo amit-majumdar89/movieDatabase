@@ -1,10 +1,3 @@
-//
-//  MovieDatabase.h
-//  MovieDatabase
-//
-//  Created by Amit Majumdar on 25/09/21.
-//
-
 #import <Foundation/Foundation.h>
 
 //! Project version number for MovieDatabase.

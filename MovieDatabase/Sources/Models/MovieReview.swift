@@ -1,10 +1,3 @@
-//
-//  MovieReview.swift
-//  MovieDatabase
-//
-//  Created by Amit Majumdar on 26/09/21.
-//
-
 import Foundation
 
 public struct MovieReview: Codable {

@@ -1,10 +1,3 @@
-//
-//  Cast.swift
-//  MovieDatabase
-//
-//  Created by Amit Majumdar on 02/10/21.
-//
-
 import Foundation
 
 public struct Cast: Codable {

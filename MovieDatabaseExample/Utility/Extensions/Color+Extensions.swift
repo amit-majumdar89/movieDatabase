@@ -1,10 +1,3 @@
-//
-//  Color+Extensions.swift
-//  MovieDatabaseExample
-//
-//  Created by Amit Majumdar on 25/09/21.
-//
-
 import SwiftUI
 
 extension Color {

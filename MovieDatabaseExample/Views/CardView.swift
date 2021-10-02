@@ -1,10 +1,3 @@
-//
-//  CardView.swift
-//  MovieDatabaseExample
-//
-//  Created by Amit Majumdar on 25/09/21.
-//
-
 import SwiftUI
 import Combine
 import MovieDatabase

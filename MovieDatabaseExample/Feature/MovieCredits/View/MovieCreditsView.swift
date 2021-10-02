@@ -1,10 +1,3 @@
-//
-//  MovieCreditsView.swift
-//  MovieDatabaseExample
-//
-//  Created by Amit Majumdar on 02/10/21.
-//
-
 import SwiftUI
 
 struct MovieCreditsView: View {

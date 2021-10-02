@@ -1,10 +1,3 @@
-//
-//  MovieListModel.swift
-//  MovieDatabase
-//
-//  Created by Amit Majumdar on 27/09/21.
-//
-
 import Foundation
 
 public struct MovieListModel : Codable, Identifiable {

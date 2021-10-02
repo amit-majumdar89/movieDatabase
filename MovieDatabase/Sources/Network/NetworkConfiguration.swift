@@ -1,10 +1,3 @@
-//
-//  NetworkConfiguration.swift
-//  MovieDatabase
-//
-//  Created by Amit Majumdar on 25/09/21.
-//
-
 import Foundation
 
 public class NetworkConfiguration {

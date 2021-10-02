@@ -1,10 +1,3 @@
-//
-//  MovieDetailsWebService.swift
-//  MovieDatabase
-//
-//  Created by Amit Majumdar on 26/09/21.
-//
-
 import Combine
 
 public protocol MovieDetailsWebServiceProtocol: WebService {

@@ -1,10 +1,3 @@
-//
-//  MovieCreditsWebService.swift
-//  MovieDatabase
-//
-//  Created by Amit Majumdar on 02/10/21.
-//
-
 import Combine
 
 public protocol MovieCreditsWebServiceProtocol: WebService {

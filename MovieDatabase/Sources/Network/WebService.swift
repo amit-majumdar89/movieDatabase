@@ -1,12 +1,4 @@
-//
-//  WebService.swift
-//  MovieDatabase
-//
-//  Created by Amit Majumdar on 25/09/21.
-//
-
 import Combine
-import Foundation
 
 public protocol WebService {
     var baseURL: String { get }
