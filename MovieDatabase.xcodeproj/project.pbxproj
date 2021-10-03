@@ -76,6 +76,10 @@
 		EE7FC3642708CA820095DFE9 /* SimilarMoviesView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE7FC3632708CA820095DFE9 /* SimilarMoviesView.swift */; };
 		EE7FC36B2708DC220095DFE9 /* SearchBar.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE7FC36A2708DC210095DFE9 /* SearchBar.swift */; };
 		EEA7E1E42708F164009EDDEB /* ListSeparatorNone.swift in Sources */ = {isa = PBXBuildFile; fileRef = EEA7E1E32708F164009EDDEB /* ListSeparatorNone.swift */; };
+		EEF1AFF9270A15710030A48E /* MovieDashboardViewTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = EEF1AFF2270A13B80030A48E /* MovieDashboardViewTest.swift */; };
+		EEF1B005270A179E0030A48E /* SimilarMovieTestCases.swift in Sources */ = {isa = PBXBuildFile; fileRef = EEF1B004270A179E0030A48E /* SimilarMovieTestCases.swift */; };
+		EEF1B011270A18930030A48E /* MovieDetailsTestCases.swift in Sources */ = {isa = PBXBuildFile; fileRef = EEF1B010270A18930030A48E /* MovieDetailsTestCases.swift */; };
+		EEF1B022270A1CB20030A48E /* MovieCreditsTestCases.swift in Sources */ = {isa = PBXBuildFile; fileRef = EEF1B021270A1CB20030A48E /* MovieCreditsTestCases.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -179,6 +183,10 @@
 		EE7FC3632708CA820095DFE9 /* SimilarMoviesView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SimilarMoviesView.swift; sourceTree = "<group>"; };
 		EE7FC36A2708DC210095DFE9 /* SearchBar.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchBar.swift; sourceTree = "<group>"; };
 		EEA7E1E32708F164009EDDEB /* ListSeparatorNone.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ListSeparatorNone.swift; sourceTree = "<group>"; };
+		EEF1AFF2270A13B80030A48E /* MovieDashboardViewTest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MovieDashboardViewTest.swift; sourceTree = "<group>"; };
+		EEF1B004270A179E0030A48E /* SimilarMovieTestCases.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SimilarMovieTestCases.swift; sourceTree = "<group>"; };
+		EEF1B010270A18930030A48E /* MovieDetailsTestCases.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MovieDetailsTestCases.swift; sourceTree = "<group>"; };
+		EEF1B021270A1CB20030A48E /* MovieCreditsTestCases.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MovieCreditsTestCases.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -293,8 +301,12 @@
 		EE0BE18B26FEF46400587A15 /* MovieDatabaseExampleTests */ = {
 			isa = PBXGroup;
 			children = (
+				EEF1AFF2270A13B80030A48E /* MovieDashboardViewTest.swift */,
+				EEF1B004270A179E0030A48E /* SimilarMovieTestCases.swift */,
 				EE0BE18C26FEF46400587A15 /* MovieDatabaseExampleTests.swift */,
 				EE0BE18E26FEF46400587A15 /* Info.plist */,
+				EEF1B010270A18930030A48E /* MovieDetailsTestCases.swift */,
+				EEF1B021270A1CB20030A48E /* MovieCreditsTestCases.swift */,
 			);
 			path = MovieDatabaseExampleTests;
 			sourceTree = "<group>";
@@ -322,8 +334,8 @@
 		EE0BE1AB26FEF6CD00587A15 /* Protocols */ = {
 			isa = PBXGroup;
 			children = (
-				EE0BE1DA26FF014700587A15 /* MovieListWebService.swift */,
 				EE0BE38A27004A2800587A15 /* MovieDetailsWebService.swift */,
+				EE0BE1DA26FF014700587A15 /* MovieListWebService.swift */,
 				EE0BE3BA2700752500587A15 /* MovieReviewWebService.swift */,
 				EE7FC2E12708813C0095DFE9 /* MovieCreditsWebService.swift */,
 				EE7FC30E27088D380095DFE9 /* SimilarMoviesWebService.swift */,
@@ -856,7 +868,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				EEF1AFF9270A15710030A48E /* MovieDashboardViewTest.swift in Sources */,
 				EE0BE18D26FEF46400587A15 /* MovieDatabaseExampleTests.swift in Sources */,
+				EEF1B011270A18930030A48E /* MovieDetailsTestCases.swift in Sources */,
+				EEF1B022270A1CB20030A48E /* MovieCreditsTestCases.swift in Sources */,
+				EEF1B005270A179E0030A48E /* SimilarMovieTestCases.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
